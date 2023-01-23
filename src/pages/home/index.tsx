@@ -26,6 +26,7 @@ import {
 
 
 export const Home = (): JSX.Element => {
+
   return (
     <main>
       <Header>

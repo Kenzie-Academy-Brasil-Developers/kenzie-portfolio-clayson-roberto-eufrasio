@@ -3,15 +3,18 @@ import ReactDOM from 'react-dom/client';
 import { GlobalStyle } from '@/styles/Global';
 import { NavBar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
-import { About } from './pages/about';
-import { Home } from './pages/home';
+import { RouteMain } from './routes/MainRouter';
+import { BrowserRouter } from "react-router-dom";
+
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <GlobalStyle>
+    <BrowserRouter>
+      <GlobalStyle>
         <NavBar />
-        <Home />
+        <RouteMain />
         <Footer />
-    </GlobalStyle>
+      </GlobalStyle>
+    </BrowserRouter>
   </React.StrictMode>
 )

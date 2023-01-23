@@ -55,3 +55,8 @@ export const Button = styled('button', {
         ...colors
     }
 })
+
+
+export const ButtonInfo = styled(Button, {
+    padding: '0'
+})

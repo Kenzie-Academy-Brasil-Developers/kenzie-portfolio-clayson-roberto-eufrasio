@@ -13,8 +13,9 @@ import {
 
 import { FaGithub, FaLinkedinIn, FaBars } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
-import { Button } from "@/styles/Buttons";
+import { Button, ButtonInfo } from "@/styles/Buttons";
 import { Container } from "@/styles/Global";
+import { useNavigate } from "react-router-dom";
 
 export interface MenuButtonOpen {
   open: Boolean;
@@ -32,6 +33,8 @@ export const NavBar = (): JSX.Element => {
     setOpen(!open);
   };
 
+  
+
   return (
     <NavbarWrapper>
       <Container>
@@ -46,6 +49,9 @@ export const NavBar = (): JSX.Element => {
             />
             <LogoTipoText>{userData.nameUser}</LogoTipoText>
           </LogoTipo>
+
+          
+
           {isWide && (
             <Button
               type="icon"
@@ -63,6 +69,9 @@ export const NavBar = (): JSX.Element => {
 };
 
 export const NavLinks = (): JSX.Element => {
+
+  const navigate = useNavigate()
+
   return (
     <NavbarLinks>
       {userData.whatsappNumber && (
@@ -99,6 +108,32 @@ export const NavLinks = (): JSX.Element => {
           <FaLinkedinIn />
         </Button>
       )}
+
+      <Button 
+        as="a" 
+        onClick={() => navigate('/myprojects')} 
+        type="icon" 
+        color="grey1"
+        >
+          Meus projetos
+      </Button>
+
+      <Button 
+        as="a" 
+        onClick={() => navigate('/home')} 
+        type="icon" 
+        color="grey1">
+          Home
+      </Button>
+
+      <Button 
+        as="a" 
+        onClick={() => navigate('/about')} 
+        type="icon" 
+        color="grey1">
+          Sobre mim
+      </Button>
+
     </NavbarLinks>
   );
 };

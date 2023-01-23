@@ -72,6 +72,10 @@ export const ProjectsAreaSocialMediaMessage = styled("aside", {
   },
 });
 
+export const ProjectsAreaSocialMediaMessageAbout = styled(ProjectsAreaSocialMediaMessage, {
+  width: "100%"
+})
+
 export const ProjectsAreaContent = styled("div", {
   width: "60%",
   paddingLeft: "4rem",
