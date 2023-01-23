@@ -111,15 +111,6 @@ export const NavLinks = (): JSX.Element => {
 
       <Button 
         as="a" 
-        onClick={() => navigate('/myprojects')} 
-        type="icon" 
-        color="grey1"
-        >
-          Meus projetos
-      </Button>
-
-      <Button 
-        as="a" 
         onClick={() => navigate('/home')} 
         type="icon" 
         color="grey1">
@@ -133,6 +124,17 @@ export const NavLinks = (): JSX.Element => {
         color="grey1">
           Sobre mim
       </Button>
+      
+      <Button 
+        as="a" 
+        onClick={() => navigate('/myprojects')} 
+        type="icon" 
+        color="grey1"
+        >
+          Meus projetos
+      </Button>
+
+
 
     </NavbarLinks>
   );
