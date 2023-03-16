@@ -5,7 +5,7 @@ import imgNode from "../public/static/img/stack/node.svg";
 import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
 import { FaVuejs } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
+import { SiBookstack, SiJquery, SiTypescript, SiWeb3Dotjs } from "react-icons/si";
 
 export const stackData = [
   {
@@ -39,5 +39,13 @@ export const stackData = [
   { 
     title: "TypeScript", 
     img: SiTypescript 
+  },
+  { 
+    title: "JQuery", 
+    img: SiJquery 
+  },
+  { 
+    title: "Web3", 
+    img: SiWeb3Dotjs 
   },
 ];

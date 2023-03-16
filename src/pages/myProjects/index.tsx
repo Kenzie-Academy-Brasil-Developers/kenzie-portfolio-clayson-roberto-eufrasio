@@ -27,11 +27,7 @@ import { useNavigate } from "react-router-dom";
 import { ProjectStack, ProjectStackTech } from "@/components/Project/style";
 import { CardProjects, ContrainerProjetcs } from "./style";
 
-
 export const MyProjects = (): JSX.Element => {
-
-  
-
   return (
     <main>
       <Header>
@@ -46,10 +42,8 @@ export const MyProjects = (): JSX.Element => {
       <ProjectsArea id="projetos">
         <Container>
           <ProjectAreaWrapperColumns>
-
             <ProjectsAreaSocialMediaMessage>
               <ContrainerProjetcs>
-
                 <CardProjects>
                   <Button
                     type="primary"
@@ -57,9 +51,8 @@ export const MyProjects = (): JSX.Element => {
                     as="a"
                     href={`https://github.com/Kenzie-Academy-Brasil-Developers/bandkamp-generic-view-clayson`}
                   >
-                  Bandkamp generic view
+                    Bandkamp generic view
                   </Button>
-
                 </CardProjects>
 
                 <CardProjects>
@@ -69,7 +62,7 @@ export const MyProjects = (): JSX.Element => {
                     as="a"
                     href={`https://github.com/Kenzie-Academy-Brasil-Developers/m5-kiosque-kenzie-clayson`}
                   >
-                  Kiosque 
+                    Kiosque
                   </Button>
                 </CardProjects>
 
@@ -80,7 +73,7 @@ export const MyProjects = (): JSX.Element => {
                     as="a"
                     href={`https://github.com/Kenzie-Academy-Brasil-Developers/m5-pet-kare-clayson-roberto-eufrasio`}
                   >
-                  Pet kare
+                    Pet kare
                   </Button>
                 </CardProjects>
 
@@ -91,13 +84,22 @@ export const MyProjects = (): JSX.Element => {
                     as="a"
                     href={`https://github.com/ClaysonRobertoEufrasio/Primeiro_Site_Solo`}
                   >
-                  Primeiro site solo
+                    Primeiro site solo
                   </Button>
                 </CardProjects>
 
+                <CardProjects>
+                  <Button
+                    type="primary"
+                    target="_blank"
+                    as="a"
+                    href={`https://github.com/ClaysonRobertoEufrasio/portfolio-clayson-roberto-eufrasio`}
+                  >
+                    Projeto salva vidas
+                  </Button>
+                </CardProjects>
               </ContrainerProjetcs>
             </ProjectsAreaSocialMediaMessage>
-            
           </ProjectAreaWrapperColumns>
         </Container>
       </ProjectsArea>
