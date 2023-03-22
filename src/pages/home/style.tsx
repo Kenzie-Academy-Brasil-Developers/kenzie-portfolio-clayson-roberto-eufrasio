@@ -72,9 +72,12 @@ export const ProjectsAreaSocialMediaMessage = styled("aside", {
   },
 });
 
-export const ProjectsAreaSocialMediaMessageAbout = styled(ProjectsAreaSocialMediaMessage, {
-  width: "100%"
-})
+export const ProjectsAreaSocialMediaMessageAbout = styled(
+  ProjectsAreaSocialMediaMessage,
+  {
+    width: "100%",
+  }
+);
 
 export const ProjectsAreaContent = styled("div", {
   width: "60%",
@@ -88,6 +91,7 @@ export const ProjectsAreaContent = styled("div", {
 export const ProjectAreaWrapperColumns = styled(Flex, {
   position: "relative",
   alignItems: "flex-start",
+  justifyContent: "center",
   "@mobile": {
     flexDirection: "column",
   },

@@ -5,7 +5,7 @@ import imgNode from "../public/static/img/stack/node.svg";
 import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
 import { FaVuejs } from "react-icons/fa";
-import { SiBookstack, SiJquery, SiTypescript, SiWeb3Dotjs } from "react-icons/si";
+import { SiExpress, SiFigma, SiGit, SiGithub, SiJquery, SiPostgresql, SiPython, SiTrello, SiTypescript, SiWeb3Dotjs } from "react-icons/si";
 
 export const stackData = [
   {
@@ -47,5 +47,33 @@ export const stackData = [
   { 
     title: "Web3", 
     img: SiWeb3Dotjs 
+  },
+  { 
+    title: "Figma", 
+    img: SiFigma
+  },
+  { 
+    title: "Python", 
+    img: SiPython
+  },
+  { 
+    title: "PostgreSQL", 
+    img: SiPostgresql
+  },
+  { 
+    title: "Github", 
+    img: SiGithub
+  },
+  { 
+    title: "Git", 
+    img: SiGit
+  },
+  { 
+    title: "Express", 
+    img: SiExpress
+  },
+  { 
+    title: "Trello", 
+    img: SiTrello
   },
 ];
