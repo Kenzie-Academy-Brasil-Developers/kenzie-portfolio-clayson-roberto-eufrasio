@@ -32,23 +32,23 @@ export const About = (): JSX.Element => {
                 Me chamo Clayson tenho 34 anos sou de Sorocaba-SP, hoje moro em
                 Florianópolis-SC, aqui foi onde conheci minha esposa e tivemos
                 uma filha linda, anteriormente trabalhava como vendedor de
-                alimentos e bebidas em um restaurante noturno, devido a pandemia
+                alimentos e bebidas em um restaurante noturno, onde aprendi a desenvolver soft skill assim evoluindo tanto na minha comunicação como na minha organização, devido a pandemia
                 o estabelecimento fechou e fomos todos demitidos. Neste período
-                veio nossa filha e a vontade de mudar de área de trabalho porém
+                veio nossa filha e a vontade de mudar de área de trabalho, porém
                 não sabia muito por onde começar e nem qual carreira seguir, um
                 de nossos amigos que já trabalha como Full Stack me falou sobre
-                essa área da tecnologia, foi onde comecei a ver videos de
+                essa área da tecnologia e como esse universo é gigantesco e cheio de oportunidades, foi onde comecei a ver videos de
                 programação e conheci o Curso em Vídeo onde acabei concluindo
                 alguns certificados nas linguagens Html, Css, JavaScript,
                 entretanto ainda não sabia como iniciar na área, acabei
                 conhecendo a Kenzie onde aprendi muito além do que eu imaginava
                 sobre esse mundo da programação. Coisas novas linguagens como
-                React, TypeScript, Style Components e muito mais, com isso
+                React, TypeScript, Style Components a como ter codigos limpos e como trabalhar semanticamente, com isso
                 aumentando minha bagagem como programador hoje tenho uma base
                 sólida sobre o Front-End, assim podendo mostrar meu aprendizado
                 em um estágio de três messes onde acabei conhecendo novas
                 linguagens como JQuery e conceitos de Web3, fora os desafios que
-                ela me proporcionou, desde a ideia da montagem de um site até a
+                ela me proporcionou com mais de 40 projetos criados tanto individuais como em grupo, desde a ideia da montagem de um site até a
                 entrega do mesmo. Sempre tive o sonho de viajar o mundo a fora e
                 com a Kenzie esse objetivo não tem estado tão longe pretendo me
                 forma este ano como desenvolvedor Full Stack conseguir um bom
