@@ -7,7 +7,7 @@ import imgReact from "../public/static/img/stack/react.svg";
 import { FaVuejs, FaJira } from "react-icons/fa";
 import { DiDjango, DiMongodb, DiScrum } from "react-icons/di";
 import { BsKanban } from "react-icons/bs";
-import { SiExpress, SiFigma, SiGit, SiGithub, SiJquery, SiPostgresql, SiPython, SiTrello, SiTypescript, SiWeb3Dotjs, SiJest, SiVercel, SiRedux } from "react-icons/si";
+import { SiExpress, SiFigma, SiGit, SiGithub, SiJquery, SiPostgresql, SiPython, SiTrello, SiTypescript, SiWeb3Dotjs, SiJest, SiVercel, SiRedux, SiDotnet, SiDocker } from "react-icons/si";
 
 export const stackData = [
   {
@@ -109,5 +109,13 @@ export const stackData = [
   {
     title: "Mongodb",
     img: DiMongodb
+  },
+  {
+    title: ".Net",
+    img: SiDotnet
+  },
+  {
+    title: "Docker",
+    img: SiDocker
   },
 ];
