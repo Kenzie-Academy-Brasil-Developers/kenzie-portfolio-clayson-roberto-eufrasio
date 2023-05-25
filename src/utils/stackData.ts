@@ -4,8 +4,10 @@ import imgJS from "../public/static/img/stack/js.svg";
 import imgNode from "../public/static/img/stack/node.svg";
 import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
-import { FaVuejs } from "react-icons/fa";
-import { SiExpress, SiFigma, SiGit, SiGithub, SiJquery, SiPostgresql, SiPython, SiTrello, SiTypescript, SiWeb3Dotjs } from "react-icons/si";
+import { FaVuejs, FaJira } from "react-icons/fa";
+import { DiDjango, DiMongodb, DiScrum } from "react-icons/di";
+import { BsKanban } from "react-icons/bs";
+import { SiExpress, SiFigma, SiGit, SiGithub, SiJquery, SiPostgresql, SiPython, SiTrello, SiTypescript, SiWeb3Dotjs, SiJest, SiVercel, SiRedux } from "react-icons/si";
 
 export const stackData = [
   {
@@ -32,48 +34,80 @@ export const stackData = [
     title: "React",
     img: imgReact,
   },
-  { 
-    title: "Vuejs", 
-    img: FaVuejs 
+  {
+    title: "Vuejs",
+    img: FaVuejs
   },
-  { 
-    title: "TypeScript", 
-    img: SiTypescript 
+  {
+    title: "TypeScript",
+    img: SiTypescript
   },
-  { 
-    title: "JQuery", 
-    img: SiJquery 
+  {
+    title: "JQuery",
+    img: SiJquery
   },
-  { 
-    title: "Web3", 
-    img: SiWeb3Dotjs 
+  {
+    title: "Web3",
+    img: SiWeb3Dotjs
   },
-  { 
-    title: "Figma", 
+  {
+    title: "Figma",
     img: SiFigma
   },
-  { 
-    title: "Python", 
+  {
+    title: "Python",
     img: SiPython
   },
-  { 
-    title: "PostgreSQL", 
+  {
+    title: "PostgreSQL",
     img: SiPostgresql
   },
-  { 
-    title: "Github", 
+  {
+    title: "Github",
     img: SiGithub
   },
-  { 
-    title: "Git", 
+  {
+    title: "Git",
     img: SiGit
   },
-  { 
-    title: "Express", 
+  {
+    title: "Express",
     img: SiExpress
   },
-  { 
-    title: "Trello", 
+  {
+    title: "Trello",
     img: SiTrello
+  },
+  {
+    title: "Scrum",
+    img: DiScrum
+  },
+  {
+    title: "Kanban",
+    img: BsKanban
+  },
+  {
+    title: "Jira",
+    img: FaJira
+  },
+  {
+    title: "Jest",
+    img: SiJest
+  },
+  {
+    title: "Vercel",
+    img: SiVercel
+  },
+  {
+    title: "Redux",
+    img: SiRedux
+  },
+  {
+    title: "Django",
+    img: DiDjango
+  },
+  {
+    title: "Mongodb",
+    img: DiMongodb
   },
 ];

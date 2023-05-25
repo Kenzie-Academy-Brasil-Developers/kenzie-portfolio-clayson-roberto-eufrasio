@@ -5,14 +5,14 @@ import { Container } from '@/styles/Global'
 export const Footer = styled("footer", {
     backgroundColor: "$brand1",
     padding: "2rem 0 3rem 0",
-    [`& ${Container}`]:{
+    [`& ${Container}`]: {
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
         textAlign: "center"
     },
-    [`& ${Button}`]:{
+    [`& ${Button}`]: {
         transform: "translateY(-124%)"
     }
 })
