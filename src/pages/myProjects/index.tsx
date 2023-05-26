@@ -44,56 +44,13 @@ export const MyProjects = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <ContrainerProjetcs>
-                <CardProjects>
-                  <Button
-                    type="primary"
-                    target="_blank"
-                    as="a"
-                    href={`https://github.com/Kenzie-Academy-Brasil-Developers/bandkamp-generic-view-clayson`}
-                  >
-                    Bandkamp generic view
-                  </Button>
-                </CardProjects>
 
                 <CardProjects>
                   <Button
                     type="primary"
                     target="_blank"
                     as="a"
-                    href={`https://github.com/Kenzie-Academy-Brasil-Developers/m5-kiosque-kenzie-clayson`}
-                  >
-                    Kiosque
-                  </Button>
-                </CardProjects>
-
-                <CardProjects>
-                  <Button
-                    type="primary"
-                    target="_blank"
-                    as="a"
-                    href={`https://github.com/Kenzie-Academy-Brasil-Developers/m5-pet-kare-clayson-roberto-eufrasio`}
-                  >
-                    Pet kare
-                  </Button>
-                </CardProjects>
-
-                <CardProjects>
-                  <Button
-                    type="primary"
-                    target="_blank"
-                    as="a"
-                    href={`https://github.com/ClaysonRobertoEufrasio/S5-07-Atividade-Passo-a-passo-Estruturando-um-Projeto-do-Zero`}
-                  >
-                    Estrutura express do zero
-                  </Button>
-                </CardProjects>
-
-                <CardProjects>
-                  <Button
-                    type="primary"
-                    target="_blank"
-                    as="a"
-                    href={`https://github.com/ClaysonRobertoEufrasio/portfolio-clayson-roberto-eufrasio`}
+                    href={`https://portifolio-gamma-rouge.vercel.app/home`}
                   >
                     Projeto salva vidas
                   </Button>
@@ -104,7 +61,7 @@ export const MyProjects = (): JSX.Element => {
                     type="primary"
                     target="_blank"
                     as="a"
-                    href={`https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-hamburgueria-da-kenzie-ClaysonRobertoEufrasio`}
+                    href={`https://react-entrega-s1-hamburgueria-da-kenzie-claysonrobertoeufrasio.vercel.app`}
                   >
                     Projeto hamburgueria
                   </Button>
@@ -115,7 +72,7 @@ export const MyProjects = (): JSX.Element => {
                     type="primary"
                     target="_blank"
                     as="a"
-                    href={`https://github.com/Kenzie-Academy-Brasil-Developers/react-atividade-s1-buscando-dados-na-api-rick-and-morty-ClaysonRobertoEufrasio`}
+                    href={`https://react-atividade-s1-buscando-m-git-4cd61a-claysonrobertoeufrasio.vercel.app/`}
                   >
                     Projeto Rick Morty
                   </Button>
@@ -126,31 +83,9 @@ export const MyProjects = (): JSX.Element => {
                     type="primary"
                     target="_blank"
                     as="a"
-                    href={`https://github.com/Kenzie-Academy-Brasil-Developers/m2-entrega-blog-m2-ClaysonRobertoEufrasio`}
+                    href={`https://react-entrega-s2-formulario-de-cadastro-claysonrobertoeufrasio.vercel.app/PageRegistration`}
                   >
-                    Projeto Blog
-                  </Button>
-                </CardProjects>
-
-                <CardProjects>
-                  <Button
-                    type="primary"
-                    target="_blank"
-                    as="a"
-                    href={`https://github.com/Kenzie-Academy-Brasil-Developers/m2-atividade-consultando-cep-na-api-viacep-sprint-3a-ClaysonRobertoEufrasio`}
-                  >
-                    Projeto Api Cep
-                  </Button>
-                </CardProjects>
-
-                <CardProjects>
-                  <Button
-                    type="primary"
-                    target="_blank"
-                    as="a"
-                    href={`https://github.com/Kenzie-Academy-Brasil-Developers/m2-atividade-the-dog-and-cat-api-sprint-3b-ClaysonRobertoEufrasio`}
-                  >
-                    Projeto Dog and Cat
+                    Projeto registro pessoal
                   </Button>
                 </CardProjects>
               </ContrainerProjetcs>
