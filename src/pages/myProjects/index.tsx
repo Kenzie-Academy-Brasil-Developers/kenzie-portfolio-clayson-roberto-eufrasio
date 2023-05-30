@@ -50,6 +50,17 @@ export const MyProjects = (): JSX.Element => {
                     type="primary"
                     target="_blank"
                     as="a"
+                    href={`https://motorshop-ten.vercel.app/`}
+                  >
+                    Projeto motor shop
+                  </Button>
+                </CardProjects>
+
+                <CardProjects>
+                  <Button
+                    type="primary"
+                    target="_blank"
+                    as="a"
                     href={`https://portifolio-gamma-rouge.vercel.app/home`}
                   >
                     Projeto salva vidas
@@ -88,6 +99,7 @@ export const MyProjects = (): JSX.Element => {
                     Projeto registro pessoal
                   </Button>
                 </CardProjects>
+
               </ContrainerProjetcs>
             </ProjectsAreaSocialMediaMessage>
           </ProjectAreaWrapperColumns>
