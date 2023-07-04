@@ -100,6 +100,17 @@ export const MyProjects = (): JSX.Element => {
                   </Button>
                 </CardProjects>
 
+                <CardProjects>
+                  <Button
+                    type="primary"
+                    target="_blank"
+                    as="a"
+                    href={`https://speeed-sooty.vercel.app/`}
+                  >
+                    Projeto speeed
+                  </Button>
+                </CardProjects>
+
               </ContrainerProjetcs>
             </ProjectsAreaSocialMediaMessage>
           </ProjectAreaWrapperColumns>
