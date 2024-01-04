@@ -5,7 +5,6 @@ import { Button } from "@/styles/Buttons";
 
 // Components
 import { Stack } from "@/components/Stack";
-import { Project } from "@/components/Project";
 
 // Data
 import { stackData } from "@/utils/stackData";
@@ -20,7 +19,6 @@ import {
   StackCards,
   ProjectsArea,
   ProjectsAreaSocialMediaMessage,
-  ProjectsAreaContent,
   ProjectAreaWrapperColumns,
 } from "./style";
 
@@ -36,9 +34,7 @@ export const Home = (): JSX.Element => {
               Criando experiências por meio da tecnologia{" "}
             </Text>
             <Text type="body1" color="grey6">
-              Sou estudante de programação na Kenzie Academy Brasil, participei
-              de diversos projetos resolvendo problemas de alto nível e
-              desenvolvendo habilidades
+            Eu sou Clayson, um desenvolvedor de software dinâmico e dedicado com sede em Florianópolis, SC, com paixão pela criação de aplicações web excepcionais. Com um rico conjunto de habilidades que abrange tecnologias de front-end como React, HTML5 e CSS3, integro perfeitamente a experiência de back-end usando o Node.js, Express e bancos de dados, como PostgreSQL e MongoDB. Proficiente no TypeScript, Git e AWS, eu prospero na entrega de soluções de software visualmente acessíveis, intuitivas e de alta qualidade. Meu compromisso de testar o desenvolvimento com ferramentas como Jest e Cucumber garante a confiabilidade do meu trabalho. Além da web, explorei Python, Django e Next.js, mostrando minha versatilidade e compromisso de permanecer na vanguarda das tendências do setor. Vamos construir algo incrível juntos!
             </Text>
             <HeaderButtonsArea>
               <Button as="a" href="#projetos">
@@ -84,19 +80,6 @@ export const Home = (): JSX.Element => {
                 Acessar perfil no LinkedIn
               </Button>
             </ProjectsAreaSocialMediaMessage>
-            <ProjectsAreaContent>
-              <Text type="body1" color="grey2" css={{ marginBottom: "$2" }}>
-                Projetos
-              </Text>
-              <Text as="h3" type="heading2" color="grey1">
-                Originalidade e{" "}
-                <Text as="span" color="brand1" type="heading2">
-                  dedicação
-                </Text>{" "}
-                em cada detalhe
-              </Text>
-              <Project />
-            </ProjectsAreaContent>
           </ProjectAreaWrapperColumns>
         </Container>
       </ProjectsArea>

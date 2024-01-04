@@ -45,6 +45,17 @@ export const MyProjects = (): JSX.Element => {
             <ProjectsAreaSocialMediaMessage>
               <ContrainerProjetcs>
 
+              <CardProjects>
+                  <Button
+                    type="primary"
+                    target="_blank"
+                    as="a"
+                    href={`https://front-ruby-kappa.vercel.app/`}
+                  >
+                    Projeto cardápio seu antônio
+                  </Button>
+                </CardProjects>
+
                 <CardProjects>
                   <Button
                     type="primary"

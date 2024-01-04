@@ -7,7 +7,7 @@ import imgReact from "../public/static/img/stack/react.svg";
 import { FaVuejs, FaJira } from "react-icons/fa";
 import { DiDjango, DiMongodb, DiScrum } from "react-icons/di";
 import { BsKanban } from "react-icons/bs";
-import { SiExpress, SiFigma, SiGit, SiGithub, SiJquery, SiPostgresql, SiPython, SiTrello, SiTypescript, SiWeb3Dotjs, SiJest, SiVercel, SiRedux, SiDotnet, SiDocker } from "react-icons/si";
+import { SiExpress, SiFigma, SiGit, SiGithub, SiJquery, SiPostgresql, SiPython, SiTrello, SiTypescript, SiWeb3Dotjs, SiJest, SiVercel, SiRedux, SiDotnet, SiDocker, SiNextdotjs, SiChakraui } from "react-icons/si";
 
 export const stackData = [
   {
@@ -118,4 +118,13 @@ export const stackData = [
     title: "Docker",
     img: SiDocker
   },
+  {
+    title: "Next",
+    img: SiNextdotjs
+  }
+  ,
+  {
+    title: "Chakra ui",
+    img: SiChakraui
+  }
 ];
